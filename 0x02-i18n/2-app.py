@@ -17,6 +17,7 @@ class Config:
 # load the cofiguration from the Config class
 app.config.from_object(Config)
 
+
 @babel.localeselector
 def get_locale():
     """ retrieves the locale """
