@@ -13,8 +13,8 @@ const queue = kue.createQueue({
 
 // defining the job data
 const jobData = {
-  phoneNumber: '1234567890',
-  message: 'This is a notification message'
+  phoneNumber: '4153518780',
+  message: 'This is the code to verify your account'
 };
 
 // creating a job in the push_notification_code queue
